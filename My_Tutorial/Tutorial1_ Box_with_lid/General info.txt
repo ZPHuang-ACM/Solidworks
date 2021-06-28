@@ -1,0 +1,8 @@
+1. In this lesson, you create two parts, a box and a lid, then combine them into an assembly,
+and finally, create a 2D drawing (From the official SW Intro Document)
+
+General Steps
+1. create a box: sketch in the front -> extrude -> shell to create a hollw box
+2. create a lid: sketch in the frone -> extrude -> sketch the lip on cover -> extrude 
+3. create a assembly: moving compoments -> rotate -> mating (1st component is fixed)
+5. create a drawing: Seeting units -> insert 3 views -> inserting a isometrix model view -> smart dimension the drawing
