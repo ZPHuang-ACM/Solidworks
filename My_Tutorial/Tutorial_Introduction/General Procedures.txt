@@ -1,0 +1,16 @@
+1. extrude -> sketch a circle -> smart dimension -> save the part
+2. extrude -> sketch a circle -> smart dimension -> offsetting entities (new feature) to get a surface to extrude
+3. extrude cut -> sketch a circle to cut through -> exit sketch
+4. Add fillets on edges
+5. Extrude -> use centerline (as construction line, keeps the center vertical)-> sketch as circle
+   -> smart dimension -> extrude
+6. extrude cut -> draw circle (move the point to the edge cyliner untile the center point appears)-> dimension->cut
+7. Add fillets to the tall cylinder -> hidden lines visible -> choose four surface -> check shaded with edges
+8. Creat a circular pattern (Important new): -> view(hide/show/temp axes) -> choose circular pattern on the feature bar
+   -> choose temp axis for pattern axis -> select equal spacing -> number of instance to 6 -> click features to pattern
+   -> selecl last three features (fillet2,cut-ex2,boss-extru3) (note here we need to select features from feature manager)
+9.  View > Hide /Show > Temporary Axes to turn off the system axes. 
+   ->select one edge on the inside of the ring and one edge on the outside of the ring -> add fillet
+10. use A ANSI Landscape -> section view -> Detial view (on drawing toolbar)-> model view (isometric shaded)
+    -> add center marks (center mark annotation toolbar) -> add centerlines on section view and detailed view
+    -> place dimensions (e.g. thru/6x/unit precision none) -> placing detail dimnesions
