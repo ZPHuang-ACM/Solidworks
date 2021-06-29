@@ -1,0 +1,6 @@
+1. use shell to hollow the part (shell is a feature)
+2. can also see the part using section view (from view toolbar)
+3. We can edit our previous features (extrusion/fillet/shell)
+   note that we need to add a feature before the shell feature (we can drag the pointer over in FeatureManager Design tree)
+4. Add realistic appearance: we need to enable RealView Graphics 
+   then in the FeatureManager Design tree-> Edit Material -> Steel -> Chrome stainless stell -> apply
