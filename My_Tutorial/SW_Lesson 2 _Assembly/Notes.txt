@@ -1,0 +1,8 @@
+1. click zoom to area
+2. convert entities (the outer edges of the selected face are projected onto the sketch plane as lines and arcs) 
+3. offset entities (can reverse the offset direction)
+4. right click part -> select appearance -> color 
+5. keep visible to insert more than one parts in an assembly
+6. Using display states -> show display pane (>) ->right click anywhere then add display state -> Enter a name 
+   -> select hidden lines visible -> hide display pane (<) -> right-click (>) and click display state-1 (Returns to its original display state)
+   (This allows for enabling multiple display states by propeorly selecting the display pane)
