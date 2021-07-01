@@ -1,0 +1,5 @@
+1. You can use Standard 3 View  to add all three standard views to a drawing at once, 
+ or you can use Model View  to add one view at a time. The resulting views are the same. ]
+2. Click Model Items  on the Annotations toolbar. select entire model to import all the model dimensions
+  -> import items into all views -> marked for drawing -> eliminate duplicates (Auto dimension all the parts)
+3. We can modify the drawing/model and then rebuild our model 
