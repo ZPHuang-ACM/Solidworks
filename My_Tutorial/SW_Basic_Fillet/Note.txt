@@ -1,0 +1,14 @@
+1. Centerpoint arc for arc + midpoint line for connecting endpoints
+2. ctrl + two edges to add relations (collinear)
+3. Draft feature to taper the face to draft 
+4. face fillet -> constant size fillet -> constant size fillet (asymmetric) -> variable size fillet (tangent propagation)
+5. mirror feature -> select right plane -> select the body to mirror 
+6. Design Library tab on the task pane -> feature\metric\keyways -> link to libray part -> right clicck (edit in context)
+   -> right click keyway (edit feature) -> blind -> depth 5 
+
+A library feature is a frequently used feature, or combination of features, 
+that you create once and then save in a library for future use.
+The SOLIDWORKS software comes with several pre-made library features in the Design Library. 
+Here, you insert a keyway. 
+
+
