@@ -1,2 +1,7 @@
 Revolves (circular extrude) and sweeps (customer defined extrude) 
 draft angle: 拔模斜度
+
+1. view -> show/hide -> temp axis/relations
+2. slect front plane -> normal to -> switch to the normal plane
+3. ctrl + click two entities (points/lines) to define realtions (coincide/parallel/vertical/horizontal)
+4. show display pane -> click the Transparency column to make the object transparent and to see the inside of a part
