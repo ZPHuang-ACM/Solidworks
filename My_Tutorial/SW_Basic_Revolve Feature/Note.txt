@@ -1,0 +1,2 @@
+Revolves (circular extrude) and sweeps (customer defined extrude) 
+draft angle: 拔模斜度
