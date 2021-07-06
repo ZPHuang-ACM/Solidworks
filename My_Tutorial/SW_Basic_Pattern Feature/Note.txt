@@ -1,0 +1,9 @@
+1. use revolved base to build the sample part -> sketch fillet -> extruded boss -> offset entities 
+2. thin feature (for defining the thickness of a extruded part)
+3. can darw some centerlines to guide us in sketching a part
+4. Linear pattern (select a direction, with geometry pattern enabled in options)
+5. circular pattern -> under feature to pattern -> select LPattern1 from the FeatureManager design tree 
+ -> options -> geometry pattern 
+6. Using equation in the pattern: Tools toolbar -> euqation view -> add equation -> select angle 
+   in the value/equation (type =360/)-> select te total instantces value (3) in the graphics area -> ok
+7. click cirpattern in the featureManager design tree-> change 3 to 4 -> rebulid the part to generate four circualr patterns
