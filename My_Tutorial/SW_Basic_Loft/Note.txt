@@ -1,0 +1,10 @@
+1. Creating a solid by connecting the profiles (lofting)
+2. Adding a flex feature to bend the model 
+3. Plane on the Reference Geometry toolbar to set multiple references planes
+4. Hold down Ctrl, select an edge of Plane2 in the graphics area, and drag to a location in front of Plane2. 
+Another offset plane, Plane3, is created. 
+5.we can cope and paste planes
+6. Lofted Boss/Base on the features toolbar to create a loft feature
+7. Hold down Ctrl, and drag an edge of the Front plane to create an offset plane behind the original Front plane
+8. Click Flex  on the Features toolbar (under inser/toolbar) to bend the part
+
