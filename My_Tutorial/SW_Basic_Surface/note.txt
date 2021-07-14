@@ -1,0 +1,34 @@
+1. Surfaces are a type of geometry with zero thickness. insert-> surfaces -> extrudes/revolves/sweeps/trim/untrim/knit
+2. lofted surface -> tangent length = 0.5
+3. swept surface -> guide line
+4. split lines (insert->cruve->split lines) tool divides a face into multiple faces
+   -> prokection 
+5. lofted surface -> Tangency to Face
+6. Join the surfaces you created with lofts and sweeps using the knit command 
+    knit surface (surface toolbar) -> Expand Surface Bodies  in the FeatureManager design tree. 
+    -> Select all the surface bodies in the folder for Surfaces and Faces to Knit
+       (The Surface Bodies  folder now holds a single surface body.)
+7. Fill each side of the area enclosed between the base, the grip, and the exit nozzle using the Filled Surface tool.
+   Constraint Curves allow you to add slope control to the patch. 
+   Filled surface (Surface toolbar) -> Select an edge, right-click and choose Select Open Loop for Patch Boundaries 
+                                       (Select Open Loop finds all the edges in a closed loop, creating the surface fill.)
+   -> Click in Constraint Curves , and select Pull Point1 -> Under Options, select Fix up boundary.
+8. planar surface to close the openings on the grip and the exit nozzle
+    Planar Surface  (Surfaces toolbar) -> right-click an edge on the grip and choose Select Open Loop.
+9. Knit all the surfaces into a single entity
+10. Revolved Surface tool to create a surface that extends the nozzle base
+11. Move the revolved surface, and position it below the existing nozzle base with the Move/Copy Bodies tool. (under feature toolbar)
+12. Use the Mutual option of the Trim Surface tool to remove extraneous faces
+    Trim Surface -> Remove selections 
+13. Extruded Surface tool, create a trim tool at the base of the nozzle
+14.  Move/Copy Bodies -> Under Rotate, click Rotation Reference -> Select Rotation Reference
+15. Delete the surface extrude and the surface body created with the move copy tool.
+    Delete/Keep Body(Feature toolbar) 
+16. Untrim Surface tool to patch one of the surface cuts
+    The Untrim Surface tool extends an existing surface along its natural boundaries, so you can select any edge from Surface-Trim3. 
+    -> Extend edges. -> Merge with original. 
+17. Thicken the surface model to create a solid model (Feature toolbar)
+    
+
+
+    
